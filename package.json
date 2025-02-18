@@ -1,0 +1,27 @@
+{
+  "name": "session-6",
+  "version": "1.0.0",
+  "main": "index.js",
+ "scripts": {
+  "server": "nodemon server.js",
+  "usersapi": "nodemon usersapi.js",
+  "dev": "concurrently \"npm run server\" \"npm run usersapi\""
+}
+,
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2",
+    "mongodb": "^6.13.0",
+    "mongoose": "^8.10.0",
+    "nodemon": "^3.1.9",
+    "validator": "^13.12.0"
+  },
+  "devDependencies": {
+    "concurrently": "^9.1.2"
+  }
+}
